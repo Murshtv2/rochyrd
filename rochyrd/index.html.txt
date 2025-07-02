@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sitio oficial de Rochy RD, artista urbano. Música, biografía y tienda de merch oficial.">
+  <title>Rochy RD | Página Oficial</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Staatliches&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>Rochy RD</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#biografia">Biografía</a></li>
+        <li><a href="#musica">Música</a></li>
+        <li><a href="#tienda">Tienda</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección Hero -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Bienvenido a la página oficial de Rochy RD</h2>
+      <p>Explora su música, biografía y la tienda de merch exclusivo.</p>
+    </div>
+  </section>
+
+  <!-- Biografía -->
+  <section id="biografia" class="biografia">
+    <h2>Biografía</h2>
+    <p>Rochy RD es un artista urbano revolucionario de República Dominicana. Con un estilo único y una presencia poderosa en la escena del reguetón, su música ha conquistado a miles de fanáticos alrededor del mundo. <br><br>Su sello musical, "Rochy World", ha sido la base para su éxito y crecimiento en la industria.</p>
+  </section>
+
+  <!-- Música -->
+  <section id="musica" class="musica">
+    <h2>Música</h2>
+    <div class="music-player">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CódigoMusicalID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <p>Escucha su último álbum en Spotify y otros servicios de música.</p>
+    <a href="https://spotify.com" target="_blank" class="btn">Escuchar en Spotify</a>
+  </section>
+
+  <!-- Tienda de Merch -->
+  <section id="tienda" class="tienda">
+    <h2>Tienda de Merch</h2>
+    <div class="merch-item">
+      <img src="https://via.placeholder.com/150" alt="Camiseta de Rochy RD">
+      <p>Camiseta Oficial</p>
+      <p>$25.00</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+    <div class="merch-item">
+      <img src="https://via.placeholder.com/150" alt="Gorra de Rochy RD">
+      <p>Gorra Oficial</p>
+      <p>$15.00</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="contacto">
+    <h2>Redes Sociales</h2>
+    <ul>
+      <li><a href="https://instagram.com/RochyRD" target="_blank">Instagram</a></li>
+      <li><a href="https://twitter.com/RochyRD" target="_bla_

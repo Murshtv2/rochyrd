@@ -1,0 +1,7 @@
+// Simulación de agregar al carrito
+const addToCartButtons = document.querySelectorAll('.add-to-cart');
+addToCartButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    alert('¡Producto agregado al carrito!');
+  });
+});
